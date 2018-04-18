@@ -4,7 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>An Advertiser's Guide to Twitch</title>
-    <meta name="description" content="">
+    <meta name="description" content="Twitch.tv reaches a huge audience, yet it is an under-utilized advertising platform. This guide solves four problems that are identified with advertising on Twitch.">
+    <meta name="keywords" content="Twitch, Twitch.tv, advertising, streaming, twitch influencer, brands">
+    <meta name="author" content="Jamdan Clang">
+      
+      <!-- Social OGG tags -->
+      <meta property="og:title" content="An Advertiser's Guide to Twitch">
+      <meta property="og:description" content="Everything you need to know to utilize the internet's largest live streaming platform for your brand.">
+      
+      <meta property="og:url" content="https://adguidetotwitch.github.io/">
+      <meta name="twitter:card" content="summary_large_image">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap-->
@@ -77,13 +86,13 @@
                     <p>The song got me thinking about the unique ways brands could interact with audiences on Twitch and how Twitch can be used to create genuine interest in a brand. Twitch is more than a place for gaming, energy drinks and computer ads. Any brand can connect with the Twitch audience, as long as they're willing to take the time to match the culture.</p>
             
                     <h2>The Process Behind the Data</h2>
-                    <p>To gather viewing data from Twitch as a whole, I wrote a data scraper in Python that pulled json data from Twitch's API every 15 minutes, and then recorded that data into spreadsheets. Since I was only interested in the areas of Twitch with the most viewers, data collection was limited to the top 15 games on Twitch, and the top 15 channels for each game. The result was 33 spreadsheets with 56 days of non-stop Twitch data. </p>
+                    <p>To gather viewing data from Twitch as a whole, I wrote a data scraper in Python that pulled json data from Twitch's API every 15 minutes, and then recorded that data into spreadsheets. Since I was only interested in the areas of Twitch with the most viewers, data collection was limited to the top 15 games on Twitch, and the top 15 channels for each game. The result was 33 spreadsheets with <a href="twitch_data.zip">56 days of non-stop Twitch data.</a> </p>
                     
-                    <p>Calculations were done using Excel. Visualizations started in Excel and were helped along with Adobe Illustrator. For the most part, statistics presented in this project were fairly surface level: total viewers, streamers with the highest viewing numbers, which games had the most people watching. One of the focuses of using Twitch API data was to identify the key influencers on Twitch. These might be Twitch partners, or smaller broadcasters with consistent viewer numbers. Using the data collected, you could see how the Twitch landscape was effected when a popular broadcaster started to stream or switched to a different game.</p>
+                    <p>Calculations were done using Excel. Visualizations started in Excel and were helped along with Adobe Illustrator. For the most part, statistics presented in this project were fairly surface level: total viewers, streamers with the highest viewing numbers, which games had the most people watching. One of the focuses of using Twitch API data was to identify the key influencers on Twitch. These might be Twitch partners or smaller broadcasters with consistent viewer numbers. Using the data collected, you could see how the Twitch landscape was effected when a popular broadcaster started to stream or switched to a different game.</p>
                     <p>There's the potential to use this type of data for real-time monitoring of Twitch. With a larger sample of data and a little more work, one could use the Twitch API to determine some higher-level metrics and insights into Twitch streamers and viewers. </p>
                     
                     <h4>Chat Sentiment</h4>
-                    <p>Chat sentiment data was gathered using the Twitch Clip function. Twitch Clips are 60 seconds or less and are meant to capture the most memorable parts of streams. Each clip includes the chat messages being sent during the original broadcast. Chat messages were exported into a plaintext format to be analyzed. Most clips were saved by me, with the exception of the Xpecial interview. There is potential for a large-scale analysis of chat sentiment throughout entire streams. Analysis after influencers mention brands on stream would be a great way to quantify audience sentiment to the messaging.</p>
+                    <p>Chat sentiment data was gathered using the Twitch Clip function. Twitch Clips are 60 seconds or less and are meant to capture the most memorable parts of streams. Each clip includes the chat messages being sent during the original broadcast. Chat messages were <a href="chat_sentiment_data.zip">exported into a plaintext format</a> to be analyzed. Most clips were saved by me, with the exception of the Xpecial interview. There is potential for a large-scale analysis of chat sentiment throughout entire streams. Analysis after influencers mention brands on stream would be a great way to quantify audience sentiment to the messaging.</p>
                     
                     
                     
